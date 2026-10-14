@@ -4,5 +4,6 @@
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": [],
-  "artifact": "/sandbox//w1/weekly"
+  "artifact": "/sandbox//w1/weekly",
+  "repoVersion": "1.1"
 }
