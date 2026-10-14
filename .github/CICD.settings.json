@@ -1,0 +1,6 @@
+{
+  "useCompilerFolder": true,
+  "doNotPublishApps": true,
+  "doNotRunTests": true,
+  "doNotRunBcptTests": true
+}
