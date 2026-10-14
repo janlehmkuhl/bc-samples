@@ -1,0 +1,5 @@
+{
+    "name": "bc-samples ruleset",
+    "description": "Shared code analysis rules for all apps in this repository.",
+    "rules": []
+}
