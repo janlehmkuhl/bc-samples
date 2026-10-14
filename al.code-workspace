@@ -1,33 +1,36 @@
 {
-    "folders": [
-        {
-            "path": ".AL-Go"
-        }
-    ],
-    "settings": {
-        "al.enableCodeAnalysis": true,
-        "al.backgroundCodeAnalysis": "Project",
-        "al.codeAnalyzers": [
-            "${CodeCop}",
-            "${UICop}",
-            "${PerTenantExtensionCop}"
-        ],
-        "al.ruleSetPath": "../.vscode/ruleset.json",
-        "al.incrementalBuild": true,
-        "al.compilationOptions": {
-            "parallel": true
-        },
-        "al.packageCachePath": "./.alpackages",
-        "[al]": {
-            "editor.defaultFormatter": "ms-dynamics-smb.al",
-            "editor.formatOnSave": true
-        },
-        "files.trimTrailingWhitespace": true,
-        "files.insertFinalNewline": true,
-        "files.exclude": {
-            "**/.alpackages": true,
-            "**/.snapshots": true,
-            "**/rad.json": true
-        }
+  "folders": [
+    {
+      "path": "Versioning Demo App"
+    },
+    {
+      "path": ".AL-Go"
     }
+  ],
+  "settings": {
+    "al.enableCodeAnalysis": true,
+    "al.backgroundCodeAnalysis": "Project",
+    "al.codeAnalyzers": [
+      "${CodeCop}",
+      "${UICop}",
+      "${PerTenantExtensionCop}"
+    ],
+    "al.ruleSetPath": "../.vscode/ruleset.json",
+    "al.incrementalBuild": true,
+    "al.compilationOptions": {
+      "parallel": true
+    },
+    "al.packageCachePath": "./.alpackages",
+    "[al]": {
+      "editor.defaultFormatter": "ms-dynamics-smb.al",
+      "editor.formatOnSave": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.exclude": {
+      "**/.alpackages": true,
+      "**/.snapshots": true,
+      "**/rad.json": true
+    }
+  }
 }
